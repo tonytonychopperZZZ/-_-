@@ -1,0 +1,11 @@
+#-*- codeing = utf-8 -*-
+#@Time : 2020/7/21 20:45
+#@Author:CHOPPER
+#@File : textSqlit3.py
+#@Software: PyCharm
+
+import sqlite3
+
+conn = sqlite3.connect("text.db")    #打开或创建数据库文件，且默认储存在当前文件夹
+
+print("Opened database successfully")
